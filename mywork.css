@@ -1,0 +1,124 @@
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(184, 108, 47);
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: #242222;
+}
+
+.navbar{
+    
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.navbar .logo {
+    width: 100px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+.navbar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    color: #111010;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: brown;
+}
+
+.main {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.project-box, .experience-box {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-box h3, .experience-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #110f0f;
+}
+
+.project-box p, .experience-box p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+
+.experience-box ul {
+    margin-top: 10px;
+}
+
+.experience-box ul li {
+    margin-left: 20px;
+    list-style-type: disc;
+}
+
+
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        padding: 10px 0;
+    }
+
+    .navbar .logo {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    
+
+    .navbar{
+    
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+   
+
+    }
+}
